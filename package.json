@@ -1,0 +1,11 @@
+{
+  "name": "rails-converter",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "3.5",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
+}
