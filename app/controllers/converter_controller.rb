@@ -1,4 +1,4 @@
-class TemperatureController < ApplicationController
+class ConverterController < ApplicationController
   def converter
     @input = params[:input].to_f
     @first = params[:first]
@@ -18,7 +18,7 @@ class TemperatureController < ApplicationController
     elsif @first === "k" && @second === "c"
       @output = @input - 273.15
     else
-      @output = "\"k,\" \"c,\" or \"f\" please. also no f/to/f etc."
+      @output = "\"k,\" \"c,\" or \"f\" please yea thanks"
     end
   end
 end
