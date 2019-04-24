@@ -1,5 +1,5 @@
 class ConverterController < ApplicationController
-  def converter
+  def temperature
     @input = params[:input].to_f
     @first = params[:first]
     @second = params[:second]
